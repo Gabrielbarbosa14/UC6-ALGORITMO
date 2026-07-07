@@ -1,0 +1,84 @@
+gabrielbarbosa__0
+senacalagoas2626
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Exercício 1 -- Calculadora de média
+
+Enunciado:
+Criar um algoritmo que leia o nome de um aluno e duas notas. Depois, calcule a
+média e informe se o aluno está aprovado ou em recuperação.
+
+Descrição narrativa:
+
+1. Solicitar o nome do aluno.
+2. Solicitar a primeira nota.
+3. Solicitar a segunda nota.
+4. Somar a primeira nota com a segunda nota.
+5. Dividir o resultado da soma por 2.
+6. Guardar o resultado como média.
+7. Verificar se a média é maior ou igual a 7.
+8. Se a média for maior ou igual a 7, informar que o aluno está aprovado.
+9. Caso contrário, informar que o aluno está em recuperação.
+10. Exibir o nome do aluno, a média e a situação final.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

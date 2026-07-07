@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Aprovados em Concursos</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Aprovados em Concursos 📝</h1>
+
+      <div class="input-area">
+        <input type="text" id="nome" placeholder="Nome do candidato" />
+
+        <input type="number" id="acertos" placeholder="Acertos" />
+      </div>
+
+      <button id="btnAdicionar">Adicionar candidato</button>
+
+      <button id="btnAprovados">Ver aprovados</button>
+
+      <input
+        type="number"
+        id="notaCorte"
+        placeholder="Digite a nota de corte"
+      />
+
+      <div class="resultado">
+        <h2>Candidatos cadastrados:</h2>
+
+        <p id="listaCandidatos">Nenhum candidato cadastrado.</p>
+
+        <h2>Aprovados:</h2>
+
+        <p id="listaAprovados">Aguardando...</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,5 @@
+Opções de Pagamento
+
+1. Pegue o valor da camisa
+2. Mostre para o cliente o valor da camisa à vista com desconto de 10%, ou seja, multiplique o valor da camisa por 0,1
+3. Mostre também o valor da camisa dividido em 3x no cartão, ou seja, pegue o valor da camisa e divida por 3

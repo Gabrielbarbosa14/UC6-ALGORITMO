@@ -1,0 +1,6 @@
+Os vizinhos
+
+1. o cliente digita um número
+2. pega o número que o cliente digitou e subtrai -1 dele
+3. pega o número original que o cliente digitou, sem a conta de subtração, e adiciona +1 nele
+4. Exibe o número anterior ao número original do cliente, o número com a operação -1, e o número posterior ao número original do cliente, que foi adicionado mais 1

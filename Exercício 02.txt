@@ -1,0 +1,16 @@
+Exercício 2 -- Controle de estoque simples
+
+Enunciado: Criar um algoritmo que leia o nome de um produto, a quantidade atual em
+estoque e a quantidade mínima desejada. Depois, informe se é necessário 
+comprar mais unidades.
+
+Descrição narrativa:
+
+1. Solicitar o nome do produto.
+2. Solicitar a quantidade atual do produto em estoque.
+3. Solicitar a quantidade mínima desejada para esse produto.
+4. Comparar a quantidade atual com a quantidade mínima.
+5. Se a quantidade atual for menor que a quantidade mínima,
+   informar que é necessário comprar mais unidades
+6. Caso contrário, informar que o estoque é suficiente.
+7. Exibir o nome do produto e a situação do estoque.

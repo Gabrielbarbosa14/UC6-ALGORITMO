@@ -1,0 +1,6 @@
+A conta da Pizzaria
+
+1. Pega o valor total da conta, com todos os gastos que aquela mesa teve
+2. Pegue a quantidade total de clientes na messa
+3. Pegue o valor total da conta e divida pelo número total do pessoas na mesa
+4. pegue o valor da divisão e dê para cada pessoa da mesa pagar sua parte

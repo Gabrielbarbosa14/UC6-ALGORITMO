@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Programa Olá Você!</title>
+
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+
+      body {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: linear-gradient(135deg, #4facfe, #00f2fe);
+      }
+
+      .container {
+        background: white;
+        padding: 30px;
+        border-radius: 15px;
+        width: 350px;
+        text-align: center;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+      }
+
+      h1 {
+        color: #333;
+        margin-bottom: 20px;
+      }
+
+      p {
+        margin: 20px 0;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        border: 2px solid #ddd;
+        border-radius: 8px;
+        margin-bottom: 15px;
+        outline: none;
+        transition: 0.3s;
+      }
+
+      input[type="text"]:focus {
+        border-color: #4facfe;
+        box-shadow: 0 0 8px rgba(79, 172, 254, 0.5);
+      }
+
+      input[type="button"] {
+        width: 100%;
+        padding: 10px;
+        border: none;
+        border-radius: 8px;
+        background: #4facfe;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      input[type="button"]:hover {
+        background: #008cff;
+        transform: scale(1.03);
+      }
+
+      #nome {
+        margin-top: 20px;
+        color: #4facfe;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Programa Olá você!</h1>
+
+      <p>
+        <input type="text" id="texto" placeholder="Digite seu nome" required />
+        <input type="button" value="Mostrar" id="mostrar" />
+      </p>
+
+      <h1 id="nome"></h1>
+    </div>
+
+    <script src="js-exercicio-video.js"></script>
+  </body>
+</html>
